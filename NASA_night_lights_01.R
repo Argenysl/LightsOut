@@ -31,7 +31,7 @@ library(plyr)
 #coordinates must in "Name" "Longitude" "Latitude" format
 
 #get your own 
-bearer <- "eyJ0eXAiOiJKV1QiLCJvcmlnaW4iOiJFYXJ0aGRhdGEgTG9naW4iLCJzaWciOiJlZGxqd3RwdWJrZXlfb3BzIiwiYWxnIjoiUlMyNTYifQ.eyJ0eXBlIjoiVXNlciIsInVpZCI6ImFyZ2VueXNsIiwiZXhwIjoxNzEyNDYyODUzLCJpYXQiOjE3MDcyNzg4NTMsImlzcyI6IkVhcnRoZGF0YSBMb2dpbiJ9.Y3KOBWQ2PP-YNGKBP8AmUGQRD19CrDqSA3V2oXOJObnsqC-WIwdS2Ex8WkTA8JNJ330x2k1AiMWlrVuEK7G7Bq8gMP0QUG5lcEtG0cDYUtebVS0S_50nrrhn7nle61lJS5MX3a9-4EImn-CZrhJwKrijjM4wa_8etjcIbfNiIznY3vJjCZ9Ltfx3EJdx76EQXIKwcfHq_eEt4AcMA0HryuHqXVlesB_jnSl-Ppr_W8tP1E2oUvUhG7sUAYpkT8gu-LWNKTH15oKhTl9G8t-kYkeeybV0P5GSwsIXvO178HoiOJGcf4uBo0HjcHdSOt3bOGoKUgW-ExW93ISPxxD_mA"
+bearer <- "TOKEN"
 data <- read.csv(curl("https://raw.githubusercontent.com/Argenysl/urban-dollop/main/Data/sites_2015_2022.csv")) #location of coordinates
 
 #all_dates <- read.csv("C:/Users/Jorge A. Rivera/OneDrive/Documents/Math/data/Seq_visits_long.csv")
